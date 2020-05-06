@@ -1,0 +1,122 @@
+/* Typography */
+
+.section h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  .section--content-detail p {
+    margin-bottom: 25px;
+  }
+  
+  /* Main Section */
+  
+  .section {
+    color: #222;
+  }
+  
+  .section--content-department hr {
+    border-color: #666;
+    border-top: 2px solid;
+    opacity: .5;
+    margin-top: 33px;
+  }
+  
+  .section--content-department__person {
+    margin-top: 39px;
+  }
+  
+  .section--content-department__person img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .section--content-department__person h2 {
+    margin-bottom: 0;
+  }
+  
+  .section--content-department__person span {
+    font-size: 1.0625rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    display: block;
+    color: #222;
+  }
+  
+  /* Sidebar */
+  
+  .section--content-department .box-date {
+    margin-bottom: 20px;
+    margin-left: 26px;
+  }
+  
+  .section--content-department .box-date i {
+    margin-right: 20px;
+    min-width: 17px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 6px;
+  }
+  
+  .section--content-department .box-date p {
+    margin-bottom: 0;
+  }
+  
+  /* Breadcrumbs */
+  
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    background: 0 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    border-radius: .25rem;
+  }
+  
+  .breadcrumb a,
+  .breadcrumb span {
+    margin: 0 3px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  
+  .breadcrumb .fileTrailDividers::before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+  }
+  
+  a {
+    color: #d60e96;
+  }
+  
+  .box-date a {
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  
+  /* Media queries */
+  
+  @media (min-width: 1230px) {
+    .container {
+      max-width: 1100px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .section h1 {
+      margin-bottom: 8px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .mb-lg-5,
+    .my-lg-5 {
+      margin-bottom: 3rem !important;
+    }
+  }  
